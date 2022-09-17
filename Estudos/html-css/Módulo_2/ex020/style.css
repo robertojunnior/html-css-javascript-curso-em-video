@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+div {
+    background-color: blueviolet;
+    border: 1px solid black;
+    min-width: 100px;
+    min-height: 100px;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    
+}
+
+div:hover {
+    background-color: orange;
+}
+div#direita:hover{
+    background-color: brown;
+}
+div.a:hover  {
+    background-color: aquamarine;
+}

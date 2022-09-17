@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'love larry';
+    src: url('fontes/love larry.ttf') format('truetype');
+}
+
+/*
+Tipos de format()
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype
+- truetype-aat (Apple Advanced Typography)
+- svg
+*/
+
+h1 {font-size: 3em;
+    font-family: 'love larry';
+    font-weight: normal;
+}
+
+h2 {font-family: Arial, Helvetica, sans-serif;}

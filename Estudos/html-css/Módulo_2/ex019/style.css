@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*quando o nome da fonte tiver espaços nos nomes colocar entre aspas
+
+ em HTML é id = em CSS é #
+ em HTML é class = em CSS é .
+*/
+
+body {
+    font-family: 'Raleway';
+    background-image: linear-gradient(to right,rgb(60, 60, 141), rgb(168, 92, 145));
+}
+
+main {
+    background-color: azure;
+    margin: auto;
+    box-shadow: 10px 0px 15px rgba(0, 0, 0, 0.466);
+    max-width: 600px;
+    padding: 40px;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+
+h1#principal {
+    font-size: 40px;
+    font-family: 'Pacifico';
+    font-weight: lighter;
+}
+
+h2{
+    font-family: 'Pacifico';
+    font-weight: lighter;
+}
+
+/* quando criar classes, sempre com nomes diferentes ou uma classe para mais de um tipo de regra idêntica, neste caso apenas para os h2 que não estarão na regra geral h2 acima linha 30 */
+h2.colorido{
+    color: #bf3f9d;
+}
+
+h2#Diferentao {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #bf3f9d;
+}
+
+img {
+    max-width: 300px;
+}
+
+p { 
+    font-family: 'Pacifico';
+}
+
+
+
+ 

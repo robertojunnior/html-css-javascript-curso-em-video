@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #151320;
+}
+
+.caixa {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    color: #fff;
+    background: #151320;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font: bold 2em 'Century Gothic';
+}
+
+.caixa::before, .caixa::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(100% + 15px);
+    height: calc(100% + 15px);
+    background : linear-gradient(25deg,#ffff00, #00ff95, #0099ff, #4502ff, #a200ff, #ff0055, #ff0000, #ffff00, #0099ff, #1a09ff83, #5900ff);
+    background-size: 200%;
+    border-radius: 15px;
+    animation: AnimarBorda 10s linear alternate infinite;
+
+}
+
+@keyframes AnimarBorda {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 200%;
+    }
+}
+
+
+.caixa::after {
+    filter: blur(50px);
+}

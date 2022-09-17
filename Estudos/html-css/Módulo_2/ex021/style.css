@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+h1 {
+    background-color: blueviolet;
+
+    
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-width: 20px;
+    border-radius: 10px;
+    border-style: solid ;
+    border-color: darkmagenta;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* shorthand 
+
+    margin: top right bottom left;
+    ex: margin: 10px 20px 10x 20px;
+    ou margin: 10px auto 10px auto; centraliza as laterais e mantem os valores top e bottom.
+
+    border: Largura estilo cor;
+    border: 20px solid darkmagenta; 
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    substituir pelo shorthand::
+    padding: topo direita baixo esquerda;
+    ou
+    padding: 10px; para quando for a mesma medida para todos os lados
+
+*/

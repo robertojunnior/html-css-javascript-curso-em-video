@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/*  Seletores personalizados em CSS
+    # = id
+    . = class
+    : = pseud-class
+    :: = pseudo-element
+    > =  children
+    */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(172, 57, 57);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+a:active {
+    color: yellowgreen;
+}
+
+a::after {
+
+}

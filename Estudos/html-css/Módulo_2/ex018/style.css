@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/*quando a fonte tiver espaços nos nomes colocar entre aspas*/
+h1 {font-weight: normal;
+    font-family: "Fredericka the Great", Arial, Helvetica, sans-serif;
+}
+
+h2 {font-family: pacifico, Arial, Helvetica, sans-serif;}
+
+p {font-family: raleway, Arial, Helvetica, sans-serif;}
+
+h3 {font-family: Kalam,Arial, Helvetica, sans-serif;}
+
+h2, h3 {font-weight: 900;}
+
+ 

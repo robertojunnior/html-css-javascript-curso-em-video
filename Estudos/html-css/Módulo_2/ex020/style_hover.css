@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+* p {font: bold 20px Arial, Helvetica, sans-serif;}
+
+div:hover {
+   color: red;
+}
+
+div:hover > p {
+    display: block;
+    background-color: yellow;
+    width: 200px;
+}
+
+div > p {
+    display: none;
+}

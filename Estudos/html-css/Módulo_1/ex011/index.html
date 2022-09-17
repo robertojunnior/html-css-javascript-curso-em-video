@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 11</title>
+    <link rel="shortcut icon" href="logo_one_favicon_2.png" type="image/x-icon">
+    <img src="one_50_50.png" alt="">
+</head>
+
+
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferente, ou diminua o tamanho do navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/M.png" type="image/png">
+        <img src="imagens/G.png" alt="Imagem Flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio no HTML5</h1>
+
+    <!-- Forma 1 - Existem duas formas de add audio
+    <audio src="media/bensound-ukulele.mp3" controls autoplay></audio>
+    e a Forma 2 removendo o SRC da tag Audio e criando os sources-->
+
+    <p>Para baixar o MP3 é só clicar em <a href="media/bensound-ukulele.mp3">"Download"</a></p>
+
+    <audio preload="metadata" controls>
+        <source src="media/bensound-ukulele.mp3" type="audio/mpeg">
+        
+    </audio> 
+    
+</body>
+</html>
