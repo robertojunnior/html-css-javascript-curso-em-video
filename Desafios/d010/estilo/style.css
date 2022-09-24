@@ -117,6 +117,7 @@ div.video {
     padding: 20px;
     padding-bottom: 56.5%;
     position: relative;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.596);
 
 }
 
