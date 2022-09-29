@@ -1,0 +1,24 @@
+
+
+div.quadrado {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px 3px rgba(0, 0, 0, 0.13);
+    margin: 20px;
+}
+
+#q1 {
+    background-color: blueviolet;
+}
+
+#q2 {
+    background-image: linear-gradient(25deg, red, yellow);
+}
+
+#q3 {
+    background-image: url(imagens/pattern001.png);
+}
+
