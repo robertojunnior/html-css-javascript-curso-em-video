@@ -16,7 +16,7 @@ body {
 
     /* Shorthand para background
         A sequencia correta é:
-        color image position repeat (size) attachment (o size ainda tem de ser por fora)*/
+        background: color image position repeat (size) attachment (o size ainda tem de ser por fora)*/
 
     background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed; 
     background-size: cover;
