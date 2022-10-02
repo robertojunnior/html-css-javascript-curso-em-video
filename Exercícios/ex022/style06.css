@@ -5,11 +5,22 @@
 
 body {
     height: 100vh;
-    background-color: black;
+    /* background-color: black;
     background-image: url(imagens/wallpaper002.jpg);
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover; */
+
+     /* Aula 06 Cap 19 - Como deixar o Background fixo enquanto rola a pagina com " Attachment (Scroll / fixed) */
+     /* background-attachment: fixed; */
+
+    /* Shorthand para background
+        A sequencia correta é:
+        color image position repeat (size) attachment (o size ainda tem de ser por fora)*/
+
+    background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed; 
     background-size: cover;
+
 }
 
 main {
