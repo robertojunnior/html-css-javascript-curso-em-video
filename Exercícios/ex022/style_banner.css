@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+    
+}
+
+section #banner-top {
+    width: 100%;
+    
+}
+
+section #banner-top-mobile {
+    width: 100%;
+    
+}
+
+
