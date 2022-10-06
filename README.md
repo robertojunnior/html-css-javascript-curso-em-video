@@ -1,4 +1,4 @@
-# Html5-Css3-JavaScript
+# html5-css3-javascript
 Heads up! 
 
 This material was used during the course of Prof. Gustavo Guanabara on the site <a href="https://www.cursoemvideo.com" target="_blank">"Curso em Vídeo"</a>, being prohibited the reproduction of all images without proper authorization. 
