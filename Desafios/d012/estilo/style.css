@@ -20,6 +20,11 @@ html, body {
     background-color: darkgrey;
 }
 
+img {
+    max-width: 150px;
+    padding-top: 40px;
+}
+
 header {
     background-color: black;
     color: white;
@@ -27,7 +32,7 @@ header {
 }
 
 header h1 {
-    padding-top: 50px;
+    padding-top: 10px;
     font-variant: small-caps; 
     /* small-caps - Deixar todas maiusculas com a primeira maior*/
     font-family: var(--font2);
@@ -55,6 +60,7 @@ section {
     line-height: 2em;
     padding-left: 60px;
     font-family: var(--font3);
+    font-size: 20px;
 }
 
 section.normal {
@@ -63,14 +69,34 @@ section.normal {
     font-family: var(--font3);
 }
 
+section p {
+    padding-bottom: 2em;
+}
+
 section.imagem {
     background-color: grey;
     color: white;
+    box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.404);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem p {
-    background-color: rgba(0, 0, 0, 0.100);
-    width: 300px;
+    background-color: rgba(0, 0, 0, 0.288);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 2px 1px rgb(36, 36, 36);
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: center;
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: righy center;
 }
 
 footer {
@@ -78,5 +104,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    font-family: var(--font1);
+    font-size: 14px;
 }
 
