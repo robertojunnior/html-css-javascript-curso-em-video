@@ -1,6 +1,6 @@
 # html5-css3
 <a target="_blank" href="https://www.cursoemvideo.com">
-    <img width="100px" src="./imagens/.png" alt="curso-em-video">
+    <img width="100px" src="https://github.com/robertojunnior/html-css/blob/main/Desafios/d010/imagens/cursoemvideo-logo.png" alt="curso-em-video">
 </a>
 <br>
 <br>
