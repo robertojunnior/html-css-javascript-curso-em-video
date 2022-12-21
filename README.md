@@ -1,7 +1,11 @@
 # html5-css3
-Heads up! 
+<a target="_blank" href="https://www.cursoemvideo.com">
+    <img width="100px" src="./imagens/.png" alt="curso-em-video">
+</a>
+<br>
+<br>
 
-This material was used during the course of Prof. Gustavo Guanabara on the site <a href="https://www.cursoemvideo.com" target="_blank">"Curso em Vídeo"</a>, being prohibited the reproduction of all images without proper authorization. 
+Este material foi utilizado durante a curso do Prof. Gustavo Guanabara no site <a href="https://www.cursoemvideo.com" target="_blank">"Curso em Vídeo"</a>.
 
 
 # projeto-android
