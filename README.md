@@ -5,7 +5,7 @@
 <br>
 <br>
 
-Este material foi utilizado durante a curso do Prof. Gustavo Guanabara no site <a href="https://www.cursoemvideo.com" target="_blank">"Curso em Vídeo"</a>.
+Este material foi utilizado durante o curso do Prof. Gustavo Guanabara no site <a href="https://www.cursoemvideo.com" target="_blank">"Curso em Vídeo"</a>.
 
 
 # projeto-android
