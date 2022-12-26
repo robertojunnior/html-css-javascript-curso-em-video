@@ -21,19 +21,21 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
+        <!-- caption igual ao "tfoot", independente de onde colocar dentro da table, ele se posiciona sozinho sobre o "thead" -->
+
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>  
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>  
             </tr>
         </thead>
 
         <tfoot>
-            <th>Total de Habitantes</th>
+            <th scope="row">Total de Habitantes</th>
             <td class="num"><strong>213.317.639</strong></td>
         </tfoot>
-        <!-- independente de onde vc coloque o TFOOT dentro de uma table,
-        ele sempre vai fica abaixo da tabela automaticamente -->
+        <!-- independente de onde vc coloque o "tfoot" dentro de uma table, ele sempre vai fica abaixo da tabela automaticamente -->
         
         <tbody>
             <tr>
