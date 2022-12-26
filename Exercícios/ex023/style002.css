@@ -1,0 +1,24 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+   width: 500px;
+   /* border-collapse: collapse; */
+}
+
+thead, tfoot {
+    background-color: rgb(167, 228, 252);
+    
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+td.num {
+    text-align: center;
+}
