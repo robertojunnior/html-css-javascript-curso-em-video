@@ -6,12 +6,24 @@ body {
 table {
    width: 500px;
    /* border-collapse: collapse; */
+   position: relative;
 }
 
 thead, tfoot {
     background-color: rgb(167, 228, 252);
-    
 }
+
+thead > tr > th {
+    position: sticky;
+    top: 0;
+    background-color: rgb(167, 228, 252);
+}
+
+tfoot {
+    position: sticky;
+    bottom: 0;
+}
+
 /* na pseudoclasse :nth-child( ) pode se preencher com 2n, -2n ou 3n depende da quantidade de linha que quer pular para colorir, par(even) e impar com (odd)*/
 tbody > tr:nth-child(2n) {
     background-color: rgb(228, 228, 228);
