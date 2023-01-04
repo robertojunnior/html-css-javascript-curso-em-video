@@ -20,3 +20,17 @@ td {
     border: 1px solid black;
     padding: 10px;
 }
+
+#emoji > img {
+    width: 100px;
+}
+
+td#emoji {
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+}
+
+tfoot {
+    background-color: rgb(167, 228, 252);
+}
