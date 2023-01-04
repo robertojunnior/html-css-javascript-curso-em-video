@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 300px;
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(167, 228, 252);
+}
+
+th {
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
