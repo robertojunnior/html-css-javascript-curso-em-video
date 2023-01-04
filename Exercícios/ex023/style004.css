@@ -3,17 +3,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-table {
-    border-collapse: collapse;
-}
-
 caption {
-    font-size: 1.3em;
-    font-weight: bold;
-    padding: 10px;
+    background-color: darkgray;
+    border: 1px solid black;
 }
 
-th, td {
+table {
+    /* border-collapse: collapse; */
+    text-align: center;
+}
+
+td, th {
     border: 1px solid gray;
     padding: 10px;
 }
