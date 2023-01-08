@@ -1,0 +1,49 @@
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 400px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
+
+}
+table, td {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
+}
+
+th {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
+}
+
+caption {
+    font-weight: 900;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
+}
+
+.destaque {
+    background-color: aqua;
+}
