@@ -10,6 +10,8 @@ main {
 }
 
 h1 {
+    background-color: rgb(166, 134, 196);
+    color: aliceblue;
     border: 1px solid black;
     border-radius: 10px;
     text-align: center;
@@ -35,6 +37,8 @@ th {
 }
 
 caption {
+    background-color: rgb(166, 134, 196);
+    color: aliceblue;
     font-weight: 900;
     border: 1px solid black;
     border-radius: 10px;
