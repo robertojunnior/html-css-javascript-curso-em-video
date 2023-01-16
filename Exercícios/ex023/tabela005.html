@@ -12,6 +12,17 @@
     <main>
         <h1>Exercício de Tabela</h1>
         <table>
+            <!-- colgroup insere na sequencia que foi criada a tabela, neste caso os "th" nome, sexo, idade, Profissão
+
+            - tambem pode-se criar classe com cores no css por exemplo:.amarelo {backgroundcolor: yellow;} para colorir com colgroup também, em vez de usar o class="cnome"; usar apenas a classe com a cor definida -->
+
+            <colgroup>
+                <col class="cnome">
+                <col class="csexo">
+                <col class="cgrupo" span="2">
+               
+            </colgroup>
+
             <caption>Cadastro</caption>
             <thead>
                 <th scope="col">Nome</th>

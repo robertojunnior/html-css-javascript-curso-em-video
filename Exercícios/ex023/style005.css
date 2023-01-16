@@ -1,5 +1,4 @@
 body {
-    
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -10,6 +9,8 @@ main {
 }
 
 h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
     background-color: rgb(166, 134, 196);
     color: aliceblue;
     border: 1px solid black;
@@ -48,6 +49,24 @@ caption {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
 }
 
-.destaque {
-    background-color: aqua;
+/* colorindo as colunas com o colgroup */
+.cnome {
+    background-color: aquamarine;
+}
+
+.csexo {
+    background-color: beige;
+}
+/* utilizando o (span="2")  */
+.cgrupo {
+    background-color: burlywood;
+}
+
+td:hover , th:hover {
+    background-color: rgb(166, 134, 196);
+}
+
+/* segunda forma de colorir toda a coluna, agora com classe */
+.amarelo {
+    background-color: yellow;
 }
