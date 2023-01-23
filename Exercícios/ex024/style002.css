@@ -6,9 +6,8 @@ body  {
 
 .mockup-mobile {
     display: flex;
-    align-items: center;
     justify-content: center;
-    
+
     border-radius: 50px;
     box-shadow: 4px 10px 20px #0000008f;
 
@@ -18,8 +17,8 @@ body  {
 }
 
 .apoio {
-    
-    width: 380px;
+    margin: auto;
+    width: 390px;
     height: 650px;
 
 }
@@ -30,6 +29,9 @@ body  {
     height: 20px;
     border-radius: 40px;
     background-color: #3f3d3d;
+
+    margin-top: 30px;
+    padding-right: -20px;
 
     
 
