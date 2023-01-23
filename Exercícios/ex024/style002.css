@@ -4,13 +4,13 @@ body  {
     font-family: 'Quicksand';
 }
 
-.mobile {
+.mockup-mobile {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
     border-radius: 50px;
-
+    box-shadow: 4px 10px 20px #0000008f;
 
     width: 420px;
     height: 800px;
@@ -31,7 +31,7 @@ body  {
     border-radius: 40px;
     background-color: #3f3d3d;
 
-    margin: auto;
+    
 
     
 }
