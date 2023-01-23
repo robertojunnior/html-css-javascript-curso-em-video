@@ -1,18 +1,22 @@
 body  {
+    
     background-color: rgb(72, 64, 102);
     color: #ffffff;
     font-family: 'Quicksand';
+    padding: 40px;
+    
 }
 
 .mockup-mobile {
+    margin: auto;
     display: flex;
     justify-content: center;
 
     border-radius: 50px;
     box-shadow: 4px 10px 20px #0000008f;
 
-    width: 380px;
-    height: 800px;
+    width: 310px;
+    height: 600px;
     background-color: black;
 
     text-align: center;
@@ -21,8 +25,8 @@ body  {
 
 .site-apoio {
     margin: auto;
-    width: 360px;
-    height: 650px;
+    width:290px;
+    height: 480px;
 
 }
 
