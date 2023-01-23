@@ -1,12 +1,16 @@
 body  {
-    
+    text-align: center;
     background-color: rgb(72, 64, 102);
     color: #ffffff;
     font-family: 'Quicksand';
-    padding: 40px;
+    padding: 50px;
     
 }
 
+p {
+    margin: 30px;
+    text-align: center;
+}
 .mockup-mobile {
     margin: auto;
     display: flex;
