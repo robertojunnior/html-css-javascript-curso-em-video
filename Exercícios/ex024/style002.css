@@ -7,13 +7,15 @@ body  {
     color: #ffffff;
     font-family: 'Quicksand';
     padding: 30px 30px;
-    
+}
+
+h1 {
+    font-size: 28px;
 }
 
 p {
     margin: 30px;
     text-align: justify;
-   
 }
 
 .mockup-mobile {
