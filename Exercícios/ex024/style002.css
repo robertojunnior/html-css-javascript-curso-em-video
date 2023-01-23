@@ -1,0 +1,38 @@
+body  {
+    background-color: rgb(72, 64, 102);
+    color: #ffffff;
+    font-family: 'Quicksand';
+}
+
+.mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50px;
+
+
+    width: 420px;
+    height: 800px;
+    background-color: black;
+}
+
+.apoio {
+    
+    width: 380px;
+    height: 650px;
+
+}
+
+.alto-falante {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    border-radius: 40px;
+    background-color: #3f3d3d;
+
+    margin: auto;
+
+    
+}
+
