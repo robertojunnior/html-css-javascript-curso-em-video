@@ -11,14 +11,17 @@ body  {
     border-radius: 50px;
     box-shadow: 4px 10px 20px #0000008f;
 
-    width: 420px;
+    width: 380px;
     height: 800px;
     background-color: black;
+
+    text-align: center;
+
 }
 
-.apoio {
+.site-apoio {
     margin: auto;
-    width: 390px;
+    width: 360px;
     height: 650px;
 
 }
@@ -30,8 +33,9 @@ body  {
     border-radius: 40px;
     background-color: #3f3d3d;
 
-    margin-top: 30px;
-    padding-right: -20px;
+    margin-top: 25px;
+   
+   
 
     
 
