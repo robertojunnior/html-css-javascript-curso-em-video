@@ -3,7 +3,7 @@ body  {
     background-color: rgb(72, 64, 102);
     color: #ffffff;
     font-family: 'Quicksand';
-    padding: 50px;
+    padding: 40px;
     
 }
 
@@ -23,7 +23,7 @@ p {
     border-radius: 50px;
     box-shadow: 4px 10px 20px #0000008f;
 
-    width: 310px;
+    width: 340px;
     height: 600px;
     background-color: black;
 
@@ -33,7 +33,7 @@ p {
 
 .site-apoio {
     margin: auto;
-    width:290px;
+    width:320px;
     height: 480px;
 
 }
