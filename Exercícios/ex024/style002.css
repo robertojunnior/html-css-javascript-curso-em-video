@@ -5,9 +5,11 @@
 body  {
     margin: auto;
     text-align: center;
-    background-color: rgb(72, 64, 102);
+    /* background-color: rgb(72, 64, 102); */
+    background-image: linear-gradient(10deg, rgb(72, 64, 102),rgb(50, 37, 97), rgb(13, 9, 29) );
     color: #ffffff;
     font-family: 'Quicksand';
+    font-size: 20px;
     padding: 20px;
 }
 
@@ -55,7 +57,7 @@ p {
 }
 
 .logo-git { 
-    padding: 0px;
+    margin-top: 10px;
 }
 
 #back-git {
