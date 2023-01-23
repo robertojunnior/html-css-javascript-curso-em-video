@@ -15,6 +15,7 @@ p {
     margin: 30px;
     text-align: center;
 }
+
 .mockup-mobile {
     margin: auto;
     display: flex;
@@ -47,10 +48,16 @@ p {
 
     margin-top: 25px;
    
-   
-
-    
-
-    
 }
 
+.logo-git { 
+    padding: 0px;
+}
+
+#back-git {
+    margin-top: -4px;
+}
+
+a {
+    color: #ffffff;
+}
