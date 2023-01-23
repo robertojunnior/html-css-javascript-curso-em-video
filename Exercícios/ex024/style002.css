@@ -1,4 +1,6 @@
-
+* {
+    margin: 0;
+}
 
 body  {
     margin: auto;
@@ -15,7 +17,7 @@ h1 {
 
 p {
     margin: 30px;
-    text-align: justify;
+    text-align: center;
 }
 
 .mockup-mobile {
