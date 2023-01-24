@@ -1,0 +1,10 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tela {
+    width: 95vw;
+    height: 400px;
+    border: 2px solid black;        
+}
