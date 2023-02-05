@@ -15,7 +15,7 @@ Acesse o link do <a target="_blank" href="https://robertojunnior.github.io/proje
 
 Abaixo as imagens do site responsivo versão Desktop e Mobile.
 
-<img id="p1" src="https://github.com/robertojunnior/Html_Css_JavaScript/blob/main/Desafios/d010/mockup_page/site%20projeto%20android%20mobile%20desktop.png?raw=true" alt="D and M">
+<img id="p1" src="https://github.com/robertojunnior/projeto-android/raw/main/imagens/desktop-mobile.png" alt="D and M">
 
 # projeto-cordel
 Projeto desenvolvido junto ao curso do Prof. Guanabara referente ao uso do efeito paralax em desenvolvimento web no cursoemvideo.com
